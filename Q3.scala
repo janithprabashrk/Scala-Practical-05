@@ -6,6 +6,7 @@ object FibonacciSequence {
       printFibonacciSequence(n)
     }
   
+    
     def printFibonacciSequence(n: Int): Unit = {
       def fibonacci(num: Int): Int = num match {
         case 0 => 0
